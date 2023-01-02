@@ -116,7 +116,7 @@ const Blog = () => {
                       </Box>
                       <Box sx={{ mt: 3 }}>
                         <InputAdornment position="start">
-                          {uid == currentUser.uid && (
+                          {uid === currentUser.uid && (
                             <div>
                               {" "}
                               <div>
@@ -140,7 +140,7 @@ const Blog = () => {
                               </div>
                             </div>
                           )}
-                          {currentUser.uid ==
+                          {currentUser.uid ===
                             "O6J9Ab7PBrSKZKUjOVw54rNvYaq2" && (
                             <div>
                               <DeleteIcon onClick={() => deleteProduct(id)} />
@@ -170,7 +170,7 @@ const Blog = () => {
               </>
             );
           })}
-        {products.length == 0 &&
+        {products.length === 0 &&
           "TARİH HAKKINDA ÖĞRENMEK İSTEDİKLERİNİZİ FURKAN HOCAYA SORABİLİRSİNİZ.."}
       </div>
 
