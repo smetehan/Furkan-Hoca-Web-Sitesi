@@ -1,4 +1,3 @@
-import { Box } from "@mui/system";
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 const Home = () => {
@@ -56,20 +55,6 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item> */}
       </Carousel>
-      <Box>
-        {" "}
-        <amp-ad
-          width="100vw"
-          height="320"
-          type="adsense"
-          data-ad-client="ca-pub-7854945301060093"
-          data-ad-slot="3802897102"
-          data-auto-format="rspv"
-          data-full-width=""
-        >
-          <div overflow=""></div>
-        </amp-ad>
-      </Box>
     </div>
   );
 };
