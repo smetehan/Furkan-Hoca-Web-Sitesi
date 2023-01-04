@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+// import { furkanhoca } from "../../images/furkanhoca.jpg";
 const Home = () => {
   return (
     <div>

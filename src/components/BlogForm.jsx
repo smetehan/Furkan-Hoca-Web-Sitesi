@@ -16,7 +16,7 @@ const BlogForm = ({ veri, setVeri, handleSubmit }) => {
 
   return (
     <>
-      {!(currentUser.uid == "O6J9Ab7PBrSKZKUjOVw54rNvYaq2") && (
+      {!(currentUser.uid === "O6J9Ab7PBrSKZKUjOVw54rNvYaq2") && (
         <Modal
           open={open}
           onClose={() => {
@@ -103,7 +103,7 @@ const BlogForm = ({ veri, setVeri, handleSubmit }) => {
         </Modal>
       )}
 
-      {currentUser.uid == "O6J9Ab7PBrSKZKUjOVw54rNvYaq2" && (
+      {currentUser.uid === "O6J9Ab7PBrSKZKUjOVw54rNvYaq2" && (
         <Modal
           open={open}
           onClose={() => {

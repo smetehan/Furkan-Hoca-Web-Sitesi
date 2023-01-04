@@ -49,6 +49,7 @@ export const createUser = async (email, password, navigate, displayName) => {
       email,
       password
     );
+    console.log(userCredential);
     //? kullanıcı profilini güncellemek için kullanılan firebase metodu
     await updateProfile(auth.currentUser, {
       displayName: displayName,
@@ -126,6 +127,7 @@ export const forgotPassword = (email) => {
 export const db = getFirestore(app);
 const productsRef = collection(db, "products");
 const docRef = doc(db, "/products/teg2yKiQdIOPy79cEEdf");
+console.log(docRef);
 export const useProductsListener = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {

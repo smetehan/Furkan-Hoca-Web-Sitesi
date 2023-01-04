@@ -30,6 +30,7 @@ function Copyright(props) {
         <img
           className="bayrak"
           src="https://thumbs.gfycat.com/AdoredDownrightHarborporpoise-max-1mb.gif"
+          alt="1"
         />
       </Grid>
       Mevzubahis vatansa; gerisi teferruattır.
