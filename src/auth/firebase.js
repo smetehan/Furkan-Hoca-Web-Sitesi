@@ -11,7 +11,6 @@ import {
   updateProfile,
 } from "firebase/auth";
 import {
-  instance,
   getFirestore,
   collection,
   doc,
@@ -19,8 +18,6 @@ import {
   deleteDoc,
   addDoc,
   updateDoc,
-  setDoc,
-  Firestore,
 } from "firebase/firestore";
 import { useState } from "react";
 import { useEffect } from "react";
