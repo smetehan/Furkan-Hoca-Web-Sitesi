@@ -141,7 +141,7 @@ const Blog = () => {
                             </div>
                           )}
                           {currentUser.uid ===
-                            "O6J9Ab7PBrSKZKUjOVw54rNvYaq2" && (
+                            "QozhYOXSvFVhNCGJkPvae14nspk1" && (
                             <div>
                               <DeleteIcon onClick={() => deleteProduct(id)} />
                               <Button
